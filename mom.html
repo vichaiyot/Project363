@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>รายการสินค้า</title>
+<style>
+    body{
+        font-family: Tahoma, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    .container{
+        width: 700px;
+        margin: 30px auto;
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    h2{
+        margin-bottom: 15px;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th{
+        background-color: #000000;
+        color: white;
+        padding: 8px;
+    }
+
+    td{
+        padding: 8px;
+        border: 1px solid #ccc;
+    }
+
+    tr:nth-child(even){
+        background-color: #f9f9f9;
+    }
+
+    .btn{
+        background-color: #a10628c5;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .btn:hover{
+        background-color: #e40c0c;
+    }
+
+    .footer{
+        margin-top: 10px;
+        background-color: #000000;
+        color: white;
+        padding: 8px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>รายการสินค้า</h2>
+
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+            <th>Stock</th>
+            <th>สั่งซื้อ</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>กระบะสุดจ้าบ</td>
+            <td>130</td>
+            <td>10</td>
+            <td><button class="btn">สั่งซื้อ</button></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>mini</td>
+            <td>195</td>
+            <td>10</td>
+            <td><button class="btn">สั่งซื้อ</button></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>เก๋ง</td>
+            <td>114</td>
+            <td>10</td>
+            <td><button class="btn">สั่งซื้อ</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>แรมบูแทน</td>
+            <td>125</td>
+            <td>10</td>
+            <td><button class="btn">สั่งซื้อ</button></td>
+        </tr>
+
+    </table>
+
+    <div class="footer">
+        วันที่ 23 กันยายน 2560
+    </div>
+</div>
+
+</body>
+</html>
